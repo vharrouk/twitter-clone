@@ -1,0 +1,165 @@
+.right-section {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.top {
+  background-color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 360px;
+}
+.upper-search {
+  background-color: rgb(244, 245, 245);
+  width: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  height: 40px;
+;
+}
+
+.upper-search:active {
+  border-width: 1px;
+  border-color: lightblue;
+  border-style: solid;
+  background-color: white;
+}
+
+.upper-search img {
+  width: 36px;
+  margin-right: 0px;
+}
+
+.upper-search input {
+  background-color: rgb(244, 245, 245);
+  border-width: none;
+  height: 20px;
+  width: 280px;
+
+}
+
+.upper-search input::placeholder {
+  font-size: 16px;
+}
+
+.trendz {
+  width: 360px;
+  background-color: rgb(243, 248, 248);
+  padding-left: 0px;
+  border-radius: 20px;
+}
+
+.trendzp {
+  font-size: 20px;
+  font-weight: bolder;
+  padding-bottom: 2px;
+  padding-top: 18px;
+  padding-left: 6px;
+}
+
+.trending {
+  width: 336px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  cursor: pointer;
+  transition: all, 0.15s;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+.show-more {
+  height: 50px;
+  padding-top: 20px;
+  padding-left: 10px;
+  font-size: 16px;
+  font-family: sans-serif;
+  color:  rgb(29, 155, 240);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.trending:hover, 
+.show-more:hover {
+  background-color: rgb(230, 235, 235);
+}
+
+.title {
+  font-size: 12px;
+  color: rgb(126, 121, 121);
+  margin-bottom: 0px;
+}
+
+.topic {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 6px;
+  margin-bottom: 0px;
+}
+
+.stats {
+  font-size: 12px;
+  color: rgb(126, 121, 121);
+  margin-top: 6px;
+}
+
+.dot-button {
+  width: 32px;
+  height: 32px;
+  border-radius: 20px;
+  border: none;
+  vertical-align: middle;
+  opacity: 0;
+  background-color: lightblue;
+  transition: all 0.15s;
+  cursor: pointer;
+}
+
+.dot-button:hover {
+  opacity: 1;
+}
+
+.dotss {
+  width: 16px;
+  vertical-align: middle;
+  margin-left: -25px;
+}
+
+.dot-and-button {
+  margin-top: 15px;
+}
+
+.follow-profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.15s;
+  cursor: pointer;
+}
+
+.follow-profile:hover {
+  background-color: rgb(230, 235, 235);
+}
+
+.follow-button {
+  background-color: black;
+  padding: 6px 16px;
+  color: white;
+  border: none;
+  border-style: solid;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 12px;
+}
+

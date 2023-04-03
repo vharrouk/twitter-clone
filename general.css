@@ -1,0 +1,14 @@
+body { 
+  padding-bottom: 3000px;
+  background-color: white;
+  padding-left: 480px;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+.sections {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}

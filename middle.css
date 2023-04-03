@@ -1,0 +1,496 @@
+.middle-section {
+  border-left-width: 0.2px;
+  border-left-style: solid;
+  border-left-color:rgb(230, 223, 223);
+  border-right-width: 0.2px;
+  border-right-style: solid;
+  border-right-color:rgb(230, 223, 223);
+  margin-top: 110px;
+}
+
+.header {
+  border-bottom-width: 0.2px;
+  border-bottom-style: solid;
+  border-bottom-color:rgb(230, 223, 223);
+  border-right-width: 0.2px;
+  border-right-style: solid;
+  border-right-color: rgb(230, 223, 223);
+  border-left-width: 0.2px;
+  border-left-style: solid;
+  border-left-color: rgb(230, 223, 223);
+  margin-bottom: 10px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 598px;
+  z-index: 1;
+}
+
+.header p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  cursor: pointer;
+  margin-left: 16px;
+}
+
+.header button {
+  padding: 20px 115px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: white;
+  border: none;
+  transition: background-color 0.15s;
+  cursor: pointer;
+}
+
+.header button:hover {
+  background-color: rgb(230, 223, 223);
+}
+
+.pix-and-textbox {
+  display: flex;
+  align-items: stretch;
+  margin-left: 16px;
+}
+
+.pp {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+input {
+  width: 420px;
+  padding-left: 14px;
+  height: 40px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+input::placeholder {
+  font-size: 20px;
+  border: none;
+}
+
+.world {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  border-bottom-color:rgb(230, 223, 223);
+  border-bottom-width: 0.5px;
+  border-bottom-style: solid;
+}
+.world img {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+
+
+.world p {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(29, 155, 240);
+  padding: 6px 14px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.world p:hover {
+  background-color: rgb(221, 233, 241);;
+}
+
+.icon-and-tweet {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  border-bottom-color:rgb(230, 223, 223);
+  border-bottom-width: 0.5px;
+  border-bottom-style: solid;
+  align-items: center;
+  padding-left: 60px;
+}
+.event-button {
+  padding: 8px;
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+  margin-right: 2px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.event-button:hover {
+  background-color: rgb(212, 227, 227);
+}
+
+.event-button img {
+  height: 16px;
+  width: 16px;
+}
+
+.mid-tweet-button {
+  background-color: rgb(122, 193, 241);
+  padding: 10px 24px;
+  color: white;
+  border: none;
+  border-style: solid;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 40px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.show{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-family: sans-serif;
+  color: rgb(29, 155, 240);
+  font-size: 16px;
+  border-bottom-color:rgb(230, 223, 223);
+  border-bottom-width: 0.5px;
+  border-bottom-style: solid;
+  padding-bottom: 10px;
+  transition: all 0.15s;
+  height: 30px;
+  align-items: center;
+  margin-top: 0px;
+  padding-top: 8px;
+  cursor: pointer;
+}
+
+.show:hover {
+  background-color:  rgb(230, 223, 223);
+}
+
+.friends {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  margin-left: 42px;
+}
+
+.friends img {
+  height: 14px;
+  width: 14px;
+}
+
+.friends p {
+  font-size: 12px;
+  font-weight: bold;
+  color:rgb(101, 100, 100);
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.friends p:hover {
+  text-decoration: underline;
+}
+
+.tweet-container {
+  transition: background-color 0.15s;
+  border-bottom-color:rgb(230, 223, 223);
+  border-bottom-width: 0.5px;
+  border-bottom-style: solid;
+  cursor: pointer;
+  padding-right: 10px;
+  padding-left: 16px;
+}
+
+.tweet-container-two {
+  margin-top: 16px;
+  border-bottom-color:rgb(230, 223, 223);
+  border-bottom-width: 0.5px;
+  border-bottom-style: solid;
+  cursor: pointer;
+  padding-right: 10px;
+  padding-left: 16px;
+}
+
+.tweet-container:hover, 
+.tweet-container-two:hover {
+  background-color: rgb(249, 247, 247);
+}
+
+.profile-part {
+  display: flex;
+  align-items: top;
+  margin-top: 0px;
+  cursor: pointer;
+}
+
+.first-img {
+  width: 52px;
+  height: 52px;
+  border-radius: 26px;
+  margin-right: 15px;
+  transition: box-shadow 0.15s;
+  cursor: pointer;
+}
+
+.first-img:hover {
+  box-shadow: 0 0 5px black;
+}
+
+.words {
+  margin-top: -20px;
+}
+
+.first-span {
+  font-family: sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.first-span:hover {
+  text-decoration: underline;
+}
+
+.word-span {
+  font-family: sans-serif;
+  color: rgb(101, 100, 100);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.p2 {
+  margin-top: -12px;
+  width: 480px;
+  font-size: 15px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.dots {
+  height: 16px;
+  width: 16px;
+  cursor: pointer;
+}
+
+.lower-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 360px;
+  margin-left: 70px;
+  margin-top: -16px;
+  cursor: pointer;
+}
+
+
+.lower-icons-button:hover {
+  background-color:rgb(226, 238, 242)
+}
+
+.icon-and-number {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icon-and-number img {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.icon-number-one, 
+.icon-number-two, 
+.icon-number-three, 
+.icon-number-four {
+  font-size: 13px;
+  margin-left: 8px;
+  color: rgb(122, 121, 121);
+  cursor: pointer;
+}
+
+.icon-number-one:hover {
+  color: rgb(56, 158, 192);
+}
+
+.icon-number-two:hover {
+  color: rgb(40, 159, 40);
+}
+
+.icon-number-three:hover {
+  color: rgb(218, 119, 136);
+}
+
+.icon-number-four:hover {
+  color: rgb(38, 136, 169);
+}
+
+.blue-tick img {
+  width: 12px;
+  height: 12px;
+  margin-bottom: -2px;
+}
+
+.tweet-pictures {
+  border: none;
+  display: flex;
+  width: 500px;
+  margin-bottom: 16px;
+  margin-left: 40px;
+  justify-content: center;
+}
+
+.img1 {
+  width: 220px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  
+}
+
+.img2 {
+  width: 220px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.img3 {
+  width: 450px;
+  border-radius: 20px;
+}
+
+.ppp1 {
+  font-size: 14px;
+  color: rgb(63, 61, 61);
+}
+
+.ddd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.big-opacity {
+  width: 320px;
+  background-color: white;
+  z-index: 2;
+  padding: 8px;
+  box-shadow: 0 0 5px lightgrey;
+  border-radius: 20px;
+  opacity: 0;
+  position: absolute;
+  bottom: -300px;
+  pointer-events: none;
+}
+
+.ddd:hover .big-opacity {
+  opacity: 1;
+}
+
+.first-opacity img {
+  width: 60px;
+  border-radius: 30px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+.correct {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: -10px;
+}
+.correct p {
+  font-family: sans-serif;
+  font-size: 16px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+.correct img {
+  width: 15px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 6px;
+}
+
+.following-button {
+  font-family: sans-serif;
+  font-size: 14px;
+  padding: 6px 22px;
+  border-width: 1px;
+  border-color: rgb(194, 187, 187);
+  border-style: solid;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: #fff;
+  margin-top: 10px;
+}
+
+.opacity-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  background-color: white;
+  width: 320px;
+  margin-bottom: 0;
+}
+
+.profile-word {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.follow-div {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.fd1{
+  font-size: 14px;
+}
+
+.fd2{
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+ .follow-div span {
+  color: gray;
+ }
+
+ .images img {
+  width: 20px;
+  border-radius: 10px;
+ }
+
+ .img2 {
+  margin-left: -15px;
+ }
+ .img3 {
+  margin-left: -15px;
+ }
+ .img1 {
+ }
+
+ .follow-word {
+  font-size: 13px;
+  width: 270px;
+  color: gray;
+ }
+
+ .images-and-follower {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+ }
+
+ 

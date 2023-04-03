@@ -1,0 +1,185 @@
+.left-section {
+background-color: white;
+position: fixed;
+top: 8px;
+bottom: 0;
+left: 0;
+}
+
+.all-left {
+  padding-left: 200px;
+}
+
+.twitter-logo-container {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  border: 0px;
+  cursor: pointer;
+  transition: all 0.15s;
+  background-color: white;
+  margin-bottom: 8px;
+}
+
+.twitter-logo-container:hover {
+  background-color: lightblue;
+  opacity: 0.6;
+}
+
+.twitter-logo {
+  height: 30px;
+  width: 30px;
+  opacity: 1px;
+}
+
+.left-side-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  border: 0;
+  border-style: solid;
+  padding: 15px 26px 15px 10px;
+  border-radius: 30px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.15s;
+  margin-bottom: 5px;
+}
+
+.left-side-icons:hover {
+  background-color: rgb(228, 225, 225);
+}
+.left-side-icons img {
+  width: 22px;
+  height: 22px;
+  margin-right: 20px;
+  margin-left: 6px;
+}
+
+.left-side-icons p {
+  font-size: 18px;
+}
+
+.tweet-button {
+  background-color: rgb(29, 155, 240);
+  padding: 16px 90px;
+  color: white;
+  border: none;
+  border-style: solid;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: all 0.15s;
+  margin-top: 5px;
+}
+
+.tweet-button:hover {
+  background:rgb(25, 140, 216)
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  width: 220px;
+  justify-content: space-between;
+  padding: 8px 14px;
+  border-radius: 80px;
+  height: 45px;
+  transition: all 0.15s;
+  cursor: pointer;
+  margin-top: 120px;
+}
+.profile-container:hover {
+  background-color: rgb(230, 223, 223);
+}
+
+.profile-section {
+  display: flex; 
+  align-items: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.my-pix {
+  height: 42px;
+  width: 42px;
+  border-radius: 25px;
+  margin-right: 8px;
+}
+
+.profile-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile-name p {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.profile-name p:hover {
+  text-decoration: underline;
+}
+
+.profile-name img {
+  width: 12px;
+  height: 12px;
+}
+
+.hashtag p {
+  margin-top: -12px;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: gray;
+}
+
+.three-dots {
+  width: 20px;
+  height: 20px;
+}
+
+
+
+<div class="ddd">
+<img class="first-img" src="pictures/channel-5.jpeg">
+<div class="big-opacity">
+  <div class="opacity-flex">
+    <div class="first-opacity">
+      <img src="pictures/channel-3.jpeg">
+      <div class="correct">
+        <p>CS Dojo</p>
+        <img src="icons/correct.png">
+      </div>
+      <p class="ppp1">@csdojo404 </p>
+    </div>
+    <button class="following-button">Following</button>
+  </div>
+
+  <p class="profile-word">
+    Become an awesome dev (w/ @ykdojo) Follow for frequent tech tweets & spaces. LinkedIn: <a href="link.com">linkedin.com/in/ykdojo</a>
+    Discord: <a href="discord.com">discord.com/invite/nNtVfKd...</a>Thanks.
+  </p>
+
+  <div class="follow-div">
+    <p class="fd1">66 <span>Following</span></p>
+    <p class="fd2">2M <span>Followers</span></p>
+  </div>
+
+  <div class="images-and-follower">
+    <div class="images">
+      <img class="img1" src="pictures/channel-1.jpeg">
+      <img class="img2" src="pictures/channel-2.jpeg">
+      <img class="img3" src="pictures/channel-3.jpeg">
+    </div>
+    <p class="follow-word">Followed by Shubomi, Agba John Doe and 30 others you follow</p>
+  </div>
+</div>
+</div>
